@@ -4,54 +4,164 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>CSSDevices by Yamartino</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheets/prism.css" />
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/Yamartino/CSSDevices/master/devices.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
+    <div id="gitbtn">
+      <iframe src="http://ghbtns.com/github-btn.html?user=yamartino&repo=CSSDevices&type=watch&count=true&size=large"
+allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+      <br />
+      <iframe src="http://ghbtns.com/github-btn.html?user=yamartino&repo=CSSDevices&type=fork&count=true&size=large"
+allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+    </div>
+
+    <div class="container">
       <header>
-        <h1>CSSDevices</h1>
-        <p>CSS library of flat iPhones</p>
-
-        <p class="view"><a href="https://github.com/Yamartino/CSSDevices">View the Project on GitHub <small>Yamartino/CSSDevices</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/Yamartino/CSSDevices/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/Yamartino/CSSDevices/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/Yamartino/CSSDevices">View On <strong>GitHub</strong></a></li>
-        </ul>
+        <h1 class="c">CSSDevices</h1>
+        <h2 class="c">&lt; CSS library of flat iPhones &gt;</h2>
+        <br />
+        <a id="ongit" class="btn btn-primary" href="https://github.com/Yamartino/CSSDevices">View On <strong>GitHub</strong></a>
       </header>
+      <br />
+      <br />
+
+      <div class="row" id="intro">
+        <div class="col-md-4">
+          <div class="cd cd-5s-black">
+            <div class="cam"></div>
+            <div class="ear"></div>
+            <div class="home"></div>
+            <div class="screen">
+              <img class="screenshot" src="http://cdn.osxdaily.com/wp-content/uploads/2013/06/iphone-5-home-screen-ios-7.jpg">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="cd cd-5s-gold">
+            <div class="cam"></div>
+            <div class="ear"></div>
+            <div class="home"></div>
+            <div class="screen">
+              <img class="screenshot" src="https://lh5.ggpht.com/FUMCq97HBTtYPhzJnRMZI8HFS11BcVWGry0NeBSGBoxkub19w928kynBHsmiBpCDz7Wa=h900">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="cd cd-5c-blue">
+            <div class="cam"></div>
+            <div class="ear"></div>
+            <div class="home"></div>
+            <div class="screen">
+              <p id="screen-talk">Anything you put in this "screen" div will be displayed on this screen!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-2">
+          <div class="cd cd-5s-black cd-xs">
+            <div class="cam"></div>
+            <div class="ear"></div>
+            <div class="home"></div>
+            <div class="screen"></div>
+          </div>
+          <h4>iPhone 5s Black</h4>
+        </div>
+        <div class="col-md-2">
+          <div class="cd cd-5s-silver cd-xs">
+            <div class="cam"></div>
+            <div class="ear"></div>
+            <div class="home"></div>
+            <div class="screen"></div>
+          </div>
+          <h4>iPhone 5s Silver</h4>
+        </div>
+        <div class="col-md-2">
+          <div class="cd cd-5s-gold cd-xs">
+            <div class="cam"></div>
+            <div class="ear"></div>
+            <div class="home"></div>
+            <div class="screen"></div>
+          </div>
+          <h4>iPhone 5s Gold</h4>
+        </div>
+        <div class="col-md-2">
+          <div class="cd cd-5c-blue cd-xs">
+            <div class="cam"></div>
+            <div class="ear"></div>
+            <div class="home"></div>
+            <div class="screen"></div>
+          </div>
+          <h4>iPhone 5c Blue</h4>
+        </div>
+        <div class="col-md-2">
+          <div class="cd cd-5c-green cd-xs">
+            <div class="cam"></div>
+            <div class="ear"></div>
+            <div class="home"></div>
+            <div class="screen"></div>
+          </div>
+          <h4>iPhone 5c Green</h4>
+        </div>
+        <div class="col-md-2">
+          <div class="cd cd-5c-red cd-xs">
+            <div class="cam"></div>
+            <div class="ear"></div>
+            <div class="home"></div>
+            <div class="screen"></div>
+          </div>
+          <h4>iPhone 5c Red</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-2"></div>
+        <div class="col-md-2">
+          <div class="cd cd-5c-yellow cd-xs">
+            <div class="cam"></div>
+            <div class="ear"></div>
+            <div class="home"></div>
+            <div class="screen"></div>
+          </div>
+          <h4>iPhone 5s Yellow</h4>
+        </div>
+        <div class="col-md-2">
+          <div class="cd cd-5c-white cd-xs">
+            <div class="cam"></div>
+            <div class="ear"></div>
+            <div class="home"></div>
+            <div class="screen"></div>
+          </div>
+          <h4>iPhone 5c White</h4>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-2"></div>
+      </div>
+
       <section>
-        <h2>
-<a name="3-steps-to-add-a-cssdevice-to-your-page" class="anchor" href="#3-steps-to-add-a-cssdevice-to-your-page"><span class="octicon octicon-link"></span></a>3 Steps to add a CSSDevice to your page.</h2>
+        <h1 class="b">3 Steps to add a CSSDevice to your page</h1>
+        <h3>1) Download and include the CSS file into your page:</h3>
+        <pre><code class="language-markup">&lt;link rel="stylesheet" type="text/css" href="devices.css"&gt;</code></pre>
 
-<h3>
-<a name="1-download-and-include-the-css-file-into-your-page" class="anchor" href="#1-download-and-include-the-css-file-into-your-page"><span class="octicon octicon-link"></span></a>1: Download and include the CSS file into your page:</h3>
-
-<p><code>&lt;link rel="stylesheet" type="text/css" href="devices.css"&gt;</code></p>
-
-<h3>
-<a name="2-page-the-following-code-into-where-you-want-the-device" class="anchor" href="#2-page-the-following-code-into-where-you-want-the-device"><span class="octicon octicon-link"></span></a>2: Page the following code into where you want the device:</h3>
-
-<pre><code>&lt;div class="cd cd-5s-silver"&gt;
+        <h3>2) Page the following code into where you want the device:</h3>
+        <pre><code class="language-markup">&lt;div class="cd cd-5s-silver [add optional size class here]"&gt;
   &lt;div class="cam"&gt;&lt;/div&gt;
   &lt;div class="ear"&gt;&lt;/div&gt;
   &lt;div class="home"&gt;&lt;/div&gt;
   &lt;div class="screen"&gt;&lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
+&lt;/div&gt;</code></pre>
 
-<h3>
-<a name="3-pick-your-device-color-and-size-and-add-the-to-the-first-divs-class" class="anchor" href="#3-pick-your-device-color-and-size-and-add-the-to-the-first-divs-class"><span class="octicon octicon-link"></span></a>3: Pick your device color and size and add the to the first divs' class:</h3>
-
-<p>Devices:
+        <h3>3) Pick your device color and size and add the to the first divs' class:</h3>
+        <pre><code class="language-markup">Devices:
 cd-5s-silver
 cd-5s-gold
 cd-5s-black
@@ -59,17 +169,17 @@ cd-5c-blue
 cd-5c-green
 cd-5c-red
 cd-5c-yellow
-cd-5c-white</p>
+cd-5c-white
 
-<p>Sizes:
+Sizes:
 cd-lg
 (defaults to medium size)
 cd-sm
-cd-xs</p>
+cd-xs</code></pre>
       </section>
+      <hr />
       <footer>
-        <p>This project is maintained by <a href="https://github.com/Yamartino">Yamartino</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <h2 class="c">This project is maintained by <a href="https://github.com/Yamartino">Yamartino</a></h3>
       </footer>
     </div>
     <script src="javascripts/prism.js"></script>
