@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>CSSDevices by Yamartino</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="stylesheets/prism.css" />
-    <link rel="stylesheet" href="stylesheets/style.css" />
-    <link rel="stylesheet" href="https://cdn.rawgit.com/Yamartino/CSSDevices/master/devices.css" />
+    <link rel="stylesheet" href="css/prism.css" />
+    <link rel="stylesheet" href="css/style.css?v=2" />
+    <link rel="stylesheet" href="css/devices.css" />
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -24,7 +24,7 @@ allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"><
     <div class="container">
       <header>
         <h1 class="c">CSSDevices</h1>
-        <h2 class="c">&lt; CSS library of flat iPhones &gt;</h2>
+        <h2 class="c">&lt; CSS library for flat iPhones &gt;</h2>
         <br />
         <a id="ongit" class="btn btn-primary" href="https://github.com/Yamartino/CSSDevices">View On <strong>GitHub</strong></a>
       </header>
@@ -33,118 +33,126 @@ allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"><
 
       <div class="row" id="intro">
         <div class="col-xs-4">
-          <div class="cd cd-5s-black">
-            <div class="cam"></div>
-            <div class="ear"></div>
-            <div class="home"></div>
-            <div class="screen">
-              <img class="screenshot" src="http://cdn.osxdaily.com/wp-content/uploads/2013/06/iphone-5-home-screen-ios-7.jpg">
+          <div class="cd cd-5s-black cd-center">
+            <div class="cd-cam"></div>
+            <div class="cd-ear"></div>
+            <div class="cd-home"></div>
+            <div class="cd-screen">
+              <img class="cd-image" src="http://cdn.osxdaily.com/wp-content/uploads/2013/06/iphone-5-home-screen-ios-7.jpg">
             </div>
           </div>
         </div>
         <div class="col-xs-4">
-          <div class="cd cd-5s-gold">
-            <div class="cam"></div>
-            <div class="ear"></div>
-            <div class="home"></div>
-            <div class="screen">
-              <img class="screenshot" src="https://lh5.ggpht.com/FUMCq97HBTtYPhzJnRMZI8HFS11BcVWGry0NeBSGBoxkub19w928kynBHsmiBpCDz7Wa=h900">
+          <div class="cd cd-5s-gold cd-center">
+            <div class="cd-cam"></div>
+            <div class="cd-ear"></div>
+            <div class="cd-home"></div>
+            <div class="cd-screen">
+              <img class="cd-image" src="https://lh5.ggpht.com/FUMCq97HBTtYPhzJnRMZI8HFS11BcVWGry0NeBSGBoxkub19w928kynBHsmiBpCDz7Wa=h900">
             </div>
           </div>
         </div>
         <div class="col-xs-4">
-          <div class="cd cd-5c-blue">
-            <div class="cam"></div>
-            <div class="ear"></div>
-            <div class="home"></div>
-            <div class="screen">
+          <div class="cd cd-5c-blue cd-center">
+            <div class="cd-cam"></div>
+            <div class="cd-ear"></div>
+            <div class="cd-home"></div>
+            <div class="cd-screen">
               <p id="screen-talk">Anything you put in this "screen" div will be displayed on this screen!</p>
             </div>
           </div>
         </div>
       </div>
 
+      <hr />
+
+      <h2>iPhone 5s</h2>
       <div class="row">
+        <div class="col-xs-3"></div>
         <div class="col-xs-2">
-          <div class="cd cd-5s-black cd-xs">
-            <div class="cam"></div>
-            <div class="ear"></div>
-            <div class="home"></div>
-            <div class="screen"></div>
+          <div class="cd cd-5s-black cd-xs cd-center">
+            <div class="cd-cam"></div>
+            <div class="cd-ear"></div>
+            <div class="cd-home"></div>
+            <div class="cd-screen"></div>
           </div>
-          <h4>iPhone 5s Black</h4>
+          <h4 class="c">Black</h4>
         </div>
         <div class="col-xs-2">
-          <div class="cd cd-5s-silver cd-xs">
-            <div class="cam"></div>
-            <div class="ear"></div>
-            <div class="home"></div>
-            <div class="screen"></div>
+          <div class="cd cd-5s-silver cd-xs cd-center">
+            <div class="cd-cam"></div>
+            <div class="cd-ear"></div>
+            <div class="cd-home"></div>
+            <div class="cd-screen"></div>
           </div>
-          <h4>iPhone 5s Silver</h4>
+          <h4 class="c">Silver</h4>
         </div>
         <div class="col-xs-2">
-          <div class="cd cd-5s-gold cd-xs">
-            <div class="cam"></div>
-            <div class="ear"></div>
-            <div class="home"></div>
-            <div class="screen"></div>
+          <div class="cd cd-5s-gold cd-xs cd-center">
+            <div class="cd-cam"></div>
+            <div class="cd-ear"></div>
+            <div class="cd-home"></div>
+            <div class="cd-screen"></div>
           </div>
-          <h4>iPhone 5s Gold</h4>
+          <h4 class="c">Gold</h4>
         </div>
-        <div class="col-xs-2">
-          <div class="cd cd-5c-blue cd-xs">
-            <div class="cam"></div>
-            <div class="ear"></div>
-            <div class="home"></div>
-            <div class="screen"></div>
-          </div>
-          <h4>iPhone 5c Blue</h4>
-        </div>
-        <div class="col-xs-2">
-          <div class="cd cd-5c-green cd-xs">
-            <div class="cam"></div>
-            <div class="ear"></div>
-            <div class="home"></div>
-            <div class="screen"></div>
-          </div>
-          <h4>iPhone 5c Green</h4>
-        </div>
-        <div class="col-xs-2">
-          <div class="cd cd-5c-red cd-xs">
-            <div class="cam"></div>
-            <div class="ear"></div>
-            <div class="home"></div>
-            <div class="screen"></div>
-          </div>
-          <h4>iPhone 5c Red</h4>
-        </div>
+        <div class="col-xs-3"></div>
       </div>
 
-      <div class="row">
-        <div class="col-xs-2"></div>
-        <div class="col-xs-2"></div>
-        <div class="col-xs-2">
-          <div class="cd cd-5c-yellow cd-xs">
-            <div class="cam"></div>
-            <div class="ear"></div>
-            <div class="home"></div>
-            <div class="screen"></div>
+      <hr />
+
+      <h2>iPhone 5c</h2>
+      <div class="row" id="iphone5c">
+        <div class="col-xs-3"></div>
+        <div class="col-xs-1">
+          <div class="cd cd-5c-blue cd-xs cd-center">
+            <div class="cd-cam"></div>
+            <div class="cd-ear"></div>
+            <div class="cd-home"></div>
+            <div class="cd-screen"></div>
           </div>
-          <h4>iPhone 5s Yellow</h4>
+          <h4>Blue</h4>
         </div>
-        <div class="col-xs-2">
-          <div class="cd cd-5c-white cd-xs">
-            <div class="cam"></div>
-            <div class="ear"></div>
-            <div class="home"></div>
-            <div class="screen"></div>
+        <div class="col-xs-1">
+          <div class="cd cd-5c-green cd-xs cd-center">
+            <div class="cd-cam"></div>
+            <div class="cd-ear"></div>
+            <div class="cd-home"></div>
+            <div class="cd-screen"></div>
           </div>
-          <h4>iPhone 5c White</h4>
+          <h4>Green</h4>
         </div>
-        <div class="col-xs-2"></div>
-        <div class="col-xs-2"></div>
+        <div class="col-xs-1">
+          <div class="cd cd-5c-red cd-xs cd-center">
+            <div class="cd-cam"></div>
+            <div class="cd-ear"></div>
+            <div class="cd-home"></div>
+            <div class="cd-screen"></div>
+          </div>
+          <h4>Red</h4>
+        </div>
+        <div class="col-xs-1">
+          <div class="cd cd-5c-yellow cd-xs cd-center">
+            <div class="cd-cam"></div>
+            <div class="cd-ear"></div>
+            <div class="cd-home"></div>
+            <div class="cd-screen"></div>
+          </div>
+          <h4>Yellow</h4>
+        </div>
+        <div class="col-xs-1">
+          <div class="cd cd-5c-white cd-xs cd-center">
+            <div class="cd-cam"></div>
+            <div class="cd-ear"></div>
+            <div class="cd-home"></div>
+            <div class="cd-screen"></div>
+          </div>
+          <h4>White</h4>
+        </div>
+        <div class="col-xs-4"></div>
       </div>
+
+      <hr />
 
       <section>
         <h1 class="b">3 Steps to add a CSSDevice to your page</h1>
@@ -153,13 +161,15 @@ allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"><
 
         <h3>2) Page the following code into where you want the device:</h3>
         <pre><code class="language-markup">&lt;div class="cd cd-5s-silver [add optional size class here]"&gt;
-  &lt;div class="cam"&gt;&lt;/div&gt;
-  &lt;div class="ear"&gt;&lt;/div&gt;
-  &lt;div class="home"&gt;&lt;/div&gt;
-  &lt;div class="screen"&gt;&lt;/div&gt;
+  &lt;div class="cd-cam"&gt;&lt;/div&gt;
+  &lt;div class="cd-ear"&gt;&lt;/div&gt;
+  &lt;div class="cd-home"&gt;&lt;/div&gt;
+  &lt;div class="cd-screen"&gt;
+    (your screen content goes here)
+  &lt;/div&gt;
 &lt;/div&gt;</code></pre>
 
-        <h3>3) Pick your device color and size and add the to the first divs' class:</h3>
+        <h3>3) Pick your device color and size and add them to the first divs' class:</h3>
         <pre><code class="language-markup">Devices:
 cd-5s-silver
 cd-5s-gold
@@ -175,14 +185,35 @@ cd-lg
 (defaults to medium size)
 cd-sm
 cd-xs</code></pre>
+        <hr />
+        <h1>Helpers:</h1>
+        <h2>Image Helper</h2>
+        <h4>When using an image in the screen, give it class "cd-image" to have it fit the screen:</h4>
+        <pre><code class="language-markup">&lt;div class="cd cd-5s-silver"&gt;
+  &lt;div class="cd-cam"&gt;&lt;/div&gt;
+  &lt;div class="cd-ear"&gt;&lt;/div&gt;
+  &lt;div class="cd-home"&gt;&lt;/div&gt;
+  &lt;div class="cd-screen"&gt;
+    &lt;img class="cd-image" src="image.png" /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+        <h2>Center Helper</h2>
+        <h4>To center the device in its parent element just give it the "cd-center" class:</h4>
+        <pre><code class="language-markup">&lt;div class="cd cd-5s-silver cd-center"&gt;
+  &lt;div class="cd-cam"&gt;&lt;/div&gt;
+  &lt;div class="cd-ear"&gt;&lt;/div&gt;
+  &lt;div class="cd-home"&gt;&lt;/div&gt;
+  &lt;div class="cd-screen"&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre>
       </section>
       <hr />
       <footer>
         <h2 class="c">This project is maintained by <a href="https://github.com/Yamartino">Yamartino</a></h3>
       </footer>
     </div>
-    <script src="javascripts/prism.js"></script>
-    <script src="javascripts/scale.fix.js"></script>
+    <script src="js/prism.js"></script>
+    <script src="js/scale.fix.js"></script>
 
   </body>
 </html>
