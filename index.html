@@ -168,12 +168,13 @@ allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"><
       <hr />
 
       <section>
-        <h1 class="b">3 Steps to add a CSSDevice to your page</h1>
+        <h1 class="b">2 Steps to add a CSSDevice to your page</h1>
         <h3>1) Download and include the CSS file into your page:</h3>
         <pre><code class="language-markup">&lt;link rel="stylesheet" type="text/css" href="devices.min.css"&gt;</code></pre>
 
-        <h3>2) Paste the following code into where you want the device:</h3>
-        <pre><code class="language-markup">&lt;div class="cd-mobile cd-5s-silver [add optional size class here]"&gt;
+        <h3>2) Copy & Paste the following code where you want the device:</h3>
+        <h4 class="i">iPhone</h4>
+        <pre><code class="language-markup">&lt;div class="cd-mobile cd-5s-silver"&gt;
   &lt;div class="cd-cam"&gt;&lt;/div&gt;
   &lt;div class="cd-ear"&gt;&lt;/div&gt;
   &lt;div class="cd-home"&gt;&lt;/div&gt;
@@ -182,43 +183,51 @@ allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"><
   &lt;/div&gt;
 &lt;/div&gt;</code></pre>
 
-        <h3>3) Pick your device color & size. Then add them to the first divs' class:</h3>
-        <pre><code class="language-markup">Devices:
-cd-5s-silver
+        <h4 class="i">Macbook</h4>
+        <pre><code class="language-markup">&lt;div class="cd-laptop"&gt;
+  &lt;div class="cd-top"&gt;&lt;/div&gt;
+  &lt;div class="cd-bottom"&gt;&lt;/div&gt;
+  &lt;div class="cd-cam"&gt;&lt;/div&gt;
+  &lt;div class="cd-notch"&gt;&lt;/div&gt;
+  &lt;div class="cd-screen"&gt;
+    (your screen content goes here)
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+        <hr />
+        <h1>Option Classes:</h1>
+        <p>All option classes should be added to the first divs class attribute.</p>
+        <h3>iPhone model/color options:</h3>
+        <pre><code class="language-markup">cd-5s-silver
 cd-5s-gold
 cd-5s-black
 cd-5c-blue
 cd-5c-green
 cd-5c-red
 cd-5c-yellow
-cd-5c-white
+cd-5c-white</code></pre>
 
-Sizes:
-cd-lg
-(defaults to medium size)
+        <h3>Devices sizes:</h3>
+        <pre><code class="language-markup">cd-lg
+(medium size is default)
 cd-sm
 cd-xs</code></pre>
         <hr />
         <h1>Helpers:</h1>
-        <h2>Image Helper</h2>
-        <h4>When using an image in the screen, give it the class "cd-image" to have it fit the screen (tip: also works with iframes):</h4>
+        <h2>Fill-screen Helper</h2>
+        <h4>When using an image, iframe, or anything else you want fullscreen on the deivce, give it the class "cd-fillscreen" to have it fit the screen:</h4>
         <pre><code class="language-markup">&lt;div class="cd-mobile cd-5s-silver"&gt;
-  &lt;div class="cd-cam"&gt;&lt;/div&gt;
-  &lt;div class="cd-ear"&gt;&lt;/div&gt;
-  &lt;div class="cd-home"&gt;&lt;/div&gt;
+  ...
   &lt;div class="cd-screen"&gt;
-    &lt;img class="cd-image" src="image.png" /&gt;
-    &lt;!-- &lt;iframe class="cd-image" src="http://example.com" frameborder="0"&gt;&lt;/iframe&gt; --&gt;
+    &lt;img class="cd-fill-screen" src="image.png" /&gt;
+    &lt;!-- &lt;iframe class="cd-fill-screen" src="http://example.com" frameborder="0"&gt;&lt;/iframe&gt; --&gt;
   &lt;/div&gt;
 &lt;/div&gt;</code></pre>
 
         <h2>Center Helper</h2>
         <h4>To center the device in its parent element just give it the "cd-center" class:</h4>
-        <pre><code class="language-markup">&lt;div class="cd-mobile cd-5s-silver cd-center"&gt;
-  &lt;div class="cd-cam"&gt;&lt;/div&gt;
-  &lt;div class="cd-ear"&gt;&lt;/div&gt;
-  &lt;div class="cd-home"&gt;&lt;/div&gt;
-  &lt;div class="cd-screen"&gt;&lt;/div&gt;
+        <pre><code class="language-markup">&lt;div class="cd-laptop cd-center"&gt;
+  ...
 &lt;/div&gt;</code></pre>
       </section>
       <hr />
