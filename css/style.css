@@ -23,13 +23,13 @@ u.{
 }
 
 header h1{
-  margin: 30px 0;
+  margin: 30px 0 10px 0;
   font-size: 80px;
   font-weight: 900;
 }
 
 #intro{
-  margin-top: 20px;
+  margin-top: -20px;
   margin-bottom: 20px;
 }
 
@@ -38,9 +38,11 @@ header h1{
 }
 
 #screen-talk{
-  color: grey;
+  color: #C6C6C6;
   padding: 10px;
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: 200;
+  letter-spacing: 1px;
 }
 
 #ongit{
