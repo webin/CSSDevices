@@ -25,6 +25,10 @@
   height: 100%;
 }
 
+.cd-image body {
+    overflow-x:hidden;
+}
+
 /*---------  iPhone 5s --------*/
 
 .cd-5s-gold{
