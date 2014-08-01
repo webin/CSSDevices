@@ -34,7 +34,7 @@ allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"><
             <div class="cd-ear"></div>
             <div class="cd-home"></div>
             <div class="cd-screen">
-              <img class="cd-image" src="http://cdn.osxdaily.com/wp-content/uploads/2013/06/iphone-5-home-screen-ios-7.jpg">
+              <img class="cd-fill-screen" src="http://cdn.osxdaily.com/wp-content/uploads/2013/06/iphone-5-home-screen-ios-7.jpg">
             </div>
           </div>
           <h4 class="c">Images</h4>
@@ -57,7 +57,7 @@ allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"><
             <div class="cd-home"></div>
             <div class="cd-screen">
               <iframe src="http://getbootstrap.com"
-        allowtransparency="true" frameborder="0" class="cd-image"></iframe>
+        allowtransparency="true" frameborder="0" class="cd-fill-screen"></iframe>
             </div>
           </div>
           <h4 class="c">Websites</h4>
@@ -154,6 +154,32 @@ allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"><
 
       <hr />
 
+      <h2>iPad Air</h2>
+      <div class="row" id="ipad">
+        <div class="col-xs-3"></div>
+        <div class="col-xs-3">
+          <div class="cd-tablet cd-black cd-xs cd-center">
+            <div class="cd-cam"></div>
+            <div class="cd-home"></div>
+            <div class="cd-screen">
+            </div>
+          </div>
+          <h4 class="c">Black</h4>
+        </div>
+        <div class="col-xs-3">
+          <div class="cd-tablet cd-white cd-xs cd-center">
+            <div class="cd-cam"></div>
+            <div class="cd-home"></div>
+            <div class="cd-screen">
+            </div>
+          </div>
+          <h4 class="c">White</h4>
+        </div>
+        <div class="col-xs-3"></div>
+      </div>
+
+      <hr />
+
       <h2>Macbook</h2>
       <div class="cd-laptop cd-xs cd-center">
         <div class="cd-top"></div>
@@ -183,6 +209,16 @@ allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"><
   &lt;/div&gt;
 &lt;/div&gt;</code></pre>
 
+        <h4 class="i">iPad</h4>
+        <pre><code class="language-markup">&lt;div class="cd-tablet cd-white"&gt;
+  &lt;div class="cd-cam"&gt;&lt;/div&gt;
+  &lt;div class="cd-home"&gt;&lt;/div&gt;
+  &lt;div class="cd-screen"&gt;
+    (your screen content goes here)
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+
         <h4 class="i">Macbook</h4>
         <pre><code class="language-markup">&lt;div class="cd-laptop"&gt;
   &lt;div class="cd-top"&gt;&lt;/div&gt;
@@ -197,6 +233,12 @@ allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"><
         <hr />
         <h1>Option Classes:</h1>
         <p>All option classes should be added to the first divs class attribute.</p>
+        <h3>Device sizes:</h3>
+        <pre><code class="language-markup">cd-lg
+(medium size is default)
+cd-sm
+cd-xs</code></pre>
+
         <h3>iPhone model/color options:</h3>
         <pre><code class="language-markup">cd-5s-silver
 cd-5s-gold
@@ -207,11 +249,10 @@ cd-5c-red
 cd-5c-yellow
 cd-5c-white</code></pre>
 
-        <h3>Device sizes:</h3>
-        <pre><code class="language-markup">cd-lg
-(medium size is default)
-cd-sm
-cd-xs</code></pre>
+        <h3>iPad color options:</h3>
+        <pre><code class="language-markup">cd-black
+cd-white</code></pre>
+
         <hr />
         <h1>Helpers:</h1>
         <h2>Fill-screen Helper</h2>
