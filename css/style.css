@@ -58,6 +58,10 @@ nav .nav-button{
   /*background: red;*/
 }
 
+nav .nav-button a{
+  letter-spacing: 1px;
+}
+
 nav .active{
   color: #b2b2b2;
 }
