@@ -104,6 +104,11 @@ header{
   margin-bottom: 20px;
 }
 
+.desc{
+  padding: 60px;
+  font-size: 20px;
+}
+
 #intro{
   margin-top: -20px;
   margin-bottom: 20px;
