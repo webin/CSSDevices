@@ -831,6 +831,14 @@
     top: 266.5px;
     right: 7.8px;
     border-radius: 6.5px; }
+  .cd-watch.cd-lg > .cd-screen {
+    width: 195px;
+    height: 239.2px;
+    top: 136.5px;
+    left: 44.2px;
+    border-radius: 6.5px; }
+    .cd-watch.cd-lg > .cd-screen > .cd-fill {
+      border-radius: 6.5px; }
   .cd-watch.cd-sm {
     width: 159.6px;
     height: 274.4px; }
@@ -872,6 +880,14 @@
     top: 143.5px;
     right: 4.2px;
     border-radius: 3.5px; }
+  .cd-watch.cd-sm > .cd-screen {
+    width: 105px;
+    height: 128.8px;
+    top: 73.5px;
+    left: 23.8px;
+    border-radius: 3.5px; }
+    .cd-watch.cd-sm > .cd-screen > .cd-fill {
+      border-radius: 3.5px; }
   .cd-watch.cd-xs {
     width: 114px;
     height: 196px; }
@@ -913,6 +929,14 @@
     top: 102.5px;
     right: 3px;
     border-radius: 2.5px; }
+  .cd-watch.cd-xs > .cd-screen {
+    width: 75px;
+    height: 92px;
+    top: 52.5px;
+    left: 17px;
+    border-radius: 2.5px; }
+    .cd-watch.cd-xs > .cd-screen > .cd-fill {
+      border-radius: 2.5px; }
   .cd-watch.cd-red-band > .cd-band {
     background: #ff4838; }
   .cd-watch.cd-grey-band > .cd-band {
